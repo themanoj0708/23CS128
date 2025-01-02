@@ -1,0 +1,22 @@
+git checkout master
+echo " I am in 9a">>lab9a.txt
+git add .
+git commit -m " I am in 9a branch master"
+git branch cherry
+git log
+git checkout cheery
+echo "  I am in 9b">>lab9b.txt
+git add .
+git commit -m " I am in 9b branch cheery"
+echo " I am in 9c">>lab9c.txt
+git add .
+git commit -m " I am in 9c branch cheery"
+git log
+git checkout master
+git log
+git cherry-pick f_________________
+git log
+git tag -a v1.1 -m "tag for release ver 1.1"
+git tag
+git show v1.0
+git push origin v1.0
