@@ -1,0 +1,16 @@
+mkdir _____
+ls
+cd _______
+git init
+git config-list
+git config-global user.name"      "
+git config-global user.email"      "
+git clone https://github.com/ username / ____   .git
+cd _______
+git status
+echo "hello git and git Hub" >>lab1.txt
+ls
+git add lab1.txt
+git status
+git commit -m "first msg"
+git push origin main
